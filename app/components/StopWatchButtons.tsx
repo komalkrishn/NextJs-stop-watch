@@ -16,7 +16,7 @@ export default function StopWatchButtons({
 }: StopWatchButtonsProps) {
   return (
     <div className={styles.stopWatch}>
-      <div className={styles.title}>Stop Watch</div>
+      <div className={styles.title}>Cosmo Clock </div>
       <div className={styles.display}>{formatTime}</div>
       <div className={styles.controls}>
         <button onClick={onStart} className={styles.startButton}>
